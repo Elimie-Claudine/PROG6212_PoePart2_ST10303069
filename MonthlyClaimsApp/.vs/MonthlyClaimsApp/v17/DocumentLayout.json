@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\premi\\OneDrive\\Bureau\\Programming 2\\PROG6212_PoePart2_ST10303069\\MonthlyClaimsApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07744A69-2EC9-4D58-BF1E-979F55FC35FD}|MonthlyClaimsApp\\MonthlyClaimsApp.csproj|c:\\users\\premi\\onedrive\\bureau\\programming 2\\prog6212_poepart2_st10303069\\monthlyclaimsapp\\monthlyclaimsapp\\views\\coordinator\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07744A69-2EC9-4D58-BF1E-979F55FC35FD}|MonthlyClaimsApp\\MonthlyClaimsApp.csproj|solutionrelative:monthlyclaimsapp\\views\\coordinator\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07744A69-2EC9-4D58-BF1E-979F55FC35FD}|MonthlyClaimsApp\\MonthlyClaimsApp.csproj|c:\\users\\premi\\onedrive\\bureau\\programming 2\\prog6212_poepart2_st10303069\\monthlyclaimsapp\\monthlyclaimsapp\\views\\lecturer\\trackclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07744A69-2EC9-4D58-BF1E-979F55FC35FD}|MonthlyClaimsApp\\MonthlyClaimsApp.csproj|solutionrelative:monthlyclaimsapp\\views\\lecturer\\trackclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07744A69-2EC9-4D58-BF1E-979F55FC35FD}|MonthlyClaimsApp\\MonthlyClaimsApp.csproj|c:\\users\\premi\\onedrive\\bureau\\programming 2\\prog6212_poepart2_st10303069\\monthlyclaimsapp\\monthlyclaimsapp\\controllers\\coordinatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07744A69-2EC9-4D58-BF1E-979F55FC35FD}|MonthlyClaimsApp\\MonthlyClaimsApp.csproj|solutionrelative:monthlyclaimsapp\\controllers\\coordinatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07744A69-2EC9-4D58-BF1E-979F55FC35FD}|MonthlyClaimsApp\\MonthlyClaimsApp.csproj|c:\\users\\premi\\onedrive\\bureau\\programming 2\\prog6212_poepart2_st10303069\\monthlyclaimsapp\\monthlyclaimsapp\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07744A69-2EC9-4D58-BF1E-979F55FC35FD}|MonthlyClaimsApp\\MonthlyClaimsApp.csproj|solutionrelative:monthlyclaimsapp\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07744A69-2EC9-4D58-BF1E-979F55FC35FD}|MonthlyClaimsApp\\MonthlyClaimsApp.csproj|c:\\users\\premi\\onedrive\\bureau\\programming 2\\prog6212_poepart2_st10303069\\monthlyclaimsapp\\monthlyclaimsapp\\monthlyclaimsapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{07744A69-2EC9-4D58-BF1E-979F55FC35FD}|MonthlyClaimsApp\\MonthlyClaimsApp.csproj|solutionrelative:monthlyclaimsapp\\monthlyclaimsapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07744A69-2EC9-4D58-BF1E-979F55FC35FD}|MonthlyClaimsApp\\MonthlyClaimsApp.csproj|c:\\users\\premi\\onedrive\\bureau\\programming 2\\prog6212_poepart2_st10303069\\monthlyclaimsapp\\monthlyclaimsapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07744A69-2EC9-4D58-BF1E-979F55FC35FD}|MonthlyClaimsApp\\MonthlyClaimsApp.csproj|solutionrelative:monthlyclaimsapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07744A69-2EC9-4D58-BF1E-979F55FC35FD}|MonthlyClaimsApp\\MonthlyClaimsApp.csproj|c:\\users\\premi\\onedrive\\bureau\\programming 2\\prog6212_poepart2_st10303069\\monthlyclaimsapp\\monthlyclaimsapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07744A69-2EC9-4D58-BF1E-979F55FC35FD}|MonthlyClaimsApp\\MonthlyClaimsApp.csproj|solutionrelative:monthlyclaimsapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07744A69-2EC9-4D58-BF1E-979F55FC35FD}|MonthlyClaimsApp\\MonthlyClaimsApp.csproj|c:\\users\\premi\\onedrive\\bureau\\programming 2\\prog6212_poepart2_st10303069\\monthlyclaimsapp\\monthlyclaimsapp\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07744A69-2EC9-4D58-BF1E-979F55FC35FD}|MonthlyClaimsApp\\MonthlyClaimsApp.csproj|solutionrelative:monthlyclaimsapp\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrackClaims.cshtml",
+              "DocumentMoniker": "C:\\Users\\premi\\OneDrive\\Bureau\\Programming 2\\PROG6212_PoePart2_ST10303069\\MonthlyClaimsApp\\MonthlyClaimsApp\\Views\\Lecturer\\TrackClaims.cshtml",
+              "RelativeDocumentMoniker": "MonthlyClaimsApp\\Views\\Lecturer\\TrackClaims.cshtml",
+              "ToolTip": "C:\\Users\\premi\\OneDrive\\Bureau\\Programming 2\\PROG6212_PoePart2_ST10303069\\MonthlyClaimsApp\\MonthlyClaimsApp\\Views\\Lecturer\\TrackClaims.cshtml",
+              "RelativeToolTip": "MonthlyClaimsApp\\Views\\Lecturer\\TrackClaims.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T10:23:10.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LecturerController.cs",
+              "DocumentMoniker": "C:\\Users\\premi\\OneDrive\\Bureau\\Programming 2\\PROG6212_PoePart2_ST10303069\\MonthlyClaimsApp\\MonthlyClaimsApp\\Controllers\\LecturerController.cs",
+              "RelativeDocumentMoniker": "MonthlyClaimsApp\\Controllers\\LecturerController.cs",
+              "ToolTip": "C:\\Users\\premi\\OneDrive\\Bureau\\Programming 2\\PROG6212_PoePart2_ST10303069\\MonthlyClaimsApp\\MonthlyClaimsApp\\Controllers\\LecturerController.cs",
+              "RelativeToolTip": "MonthlyClaimsApp\\Controllers\\LecturerController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T09:43:07.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\premi\\OneDrive\\Bureau\\Programming 2\\PROG6212_PoePart2_ST10303069\\MonthlyClaimsApp\\MonthlyClaimsApp\\Views\\Coordinator\\Index.cshtml",
+              "RelativeDocumentMoniker": "MonthlyClaimsApp\\Views\\Coordinator\\Index.cshtml",
+              "ToolTip": "C:\\Users\\premi\\OneDrive\\Bureau\\Programming 2\\PROG6212_PoePart2_ST10303069\\MonthlyClaimsApp\\MonthlyClaimsApp\\Views\\Coordinator\\Index.cshtml",
+              "RelativeToolTip": "MonthlyClaimsApp\\Views\\Coordinator\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T09:35:58.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CoordinatorController.cs",
+              "DocumentMoniker": "C:\\Users\\premi\\OneDrive\\Bureau\\Programming 2\\PROG6212_PoePart2_ST10303069\\MonthlyClaimsApp\\MonthlyClaimsApp\\Controllers\\CoordinatorController.cs",
+              "RelativeDocumentMoniker": "MonthlyClaimsApp\\Controllers\\CoordinatorController.cs",
+              "ToolTip": "C:\\Users\\premi\\OneDrive\\Bureau\\Programming 2\\PROG6212_PoePart2_ST10303069\\MonthlyClaimsApp\\MonthlyClaimsApp\\Controllers\\CoordinatorController.cs",
+              "RelativeToolTip": "MonthlyClaimsApp\\Controllers\\CoordinatorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T08:45:06.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MonthlyClaimsApp",
+              "DocumentMoniker": "C:\\Users\\premi\\OneDrive\\Bureau\\Programming 2\\PROG6212_PoePart2_ST10303069\\MonthlyClaimsApp\\MonthlyClaimsApp\\MonthlyClaimsApp.csproj",
+              "RelativeDocumentMoniker": "MonthlyClaimsApp\\MonthlyClaimsApp.csproj",
+              "ToolTip": "C:\\Users\\premi\\OneDrive\\Bureau\\Programming 2\\PROG6212_PoePart2_ST10303069\\MonthlyClaimsApp\\MonthlyClaimsApp\\MonthlyClaimsApp.csproj",
+              "RelativeToolTip": "MonthlyClaimsApp\\MonthlyClaimsApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-17T09:59:24.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\premi\\OneDrive\\Bureau\\Programming 2\\PROG6212_PoePart2_ST10303069\\MonthlyClaimsApp\\MonthlyClaimsApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MonthlyClaimsApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\premi\\OneDrive\\Bureau\\Programming 2\\PROG6212_PoePart2_ST10303069\\MonthlyClaimsApp\\MonthlyClaimsApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MonthlyClaimsApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwBsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:07:15.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\premi\\OneDrive\\Bureau\\Programming 2\\PROG6212_PoePart2_ST10303069\\MonthlyClaimsApp\\MonthlyClaimsApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MonthlyClaimsApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\premi\\OneDrive\\Bureau\\Programming 2\\PROG6212_PoePart2_ST10303069\\MonthlyClaimsApp\\MonthlyClaimsApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MonthlyClaimsApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-15T08:48:19.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ManagerController.cs",
+              "DocumentMoniker": "C:\\Users\\premi\\OneDrive\\Bureau\\Programming 2\\PROG6212_PoePart2_ST10303069\\MonthlyClaimsApp\\MonthlyClaimsApp\\Controllers\\ManagerController.cs",
+              "RelativeDocumentMoniker": "MonthlyClaimsApp\\Controllers\\ManagerController.cs",
+              "ToolTip": "C:\\Users\\premi\\OneDrive\\Bureau\\Programming 2\\PROG6212_PoePart2_ST10303069\\MonthlyClaimsApp\\MonthlyClaimsApp\\Controllers\\ManagerController.cs",
+              "RelativeToolTip": "MonthlyClaimsApp\\Controllers\\ManagerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T08:44:42.853Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

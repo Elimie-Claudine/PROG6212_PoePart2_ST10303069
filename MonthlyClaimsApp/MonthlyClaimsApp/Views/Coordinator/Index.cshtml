@@ -1,0 +1,75 @@
+﻿@model IEnumerable<MonthlyClaimsApp.Models.Claim>
+
+@{
+    ViewData["Title"] = "Pending Claims for Approval";
+}
+
+<h2 class="text-center mb-4" style="color:#f6be00;">Pending Claims for Approval</h2>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success text-center mb-4">
+        @TempData["Message"]
+    </div>
+}
+
+@if (!Model.Any())
+{
+    <p class="text-center" style="color:black;">No pending claims at the moment.</p>
+}
+else
+{
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        @foreach (var claim in Model)
+        {
+            <div class="col">
+                <div class="card shadow-sm h-100 border-2 border-dark">
+                    <div class="card-header" style="background-color:#f6be00; color:black; font-weight:bold;">
+                        Claim ID: @claim.ClaimID
+                    </div>
+                    <div class="card-body" style="color:black;">
+                        <p><strong>Lecturer:</strong> @claim.LecturerName</p>
+                        <p><strong>Hours Worked:</strong> @claim.HoursWorked</p>
+                        <p><strong>Hourly Rate:</strong> @claim.HourlyRate</p>
+                        <p><strong>Total Amount:</strong> @claim.TotalAmount</p>
+                        <p>
+                            <strong>Document / Description:</strong>
+                            @if (!string.IsNullOrEmpty(claim.DocumentName))
+                            {
+                                <a href="@claim.DocumentName" target="_blank" style="color:#0066ff; font-weight:bold;">Download</a>
+                            }
+                            else if (!string.IsNullOrWhiteSpace(claim.Description))
+                            {
+                                @claim.Description
+                            }
+                            else
+                            {
+                                <em style="color:#555;">No document or description</em>
+                            }
+                        </p>
+                        <p>
+                            <strong>Status:</strong>
+                            <span class="badge" style="background-color:@(claim.Status.Contains("Approved") ? "#28a745" : claim.Status.Contains("Rejected") ? "#dc3545" : "#ffc107"); color:black;">
+                                @claim.Status
+                            </span>
+                        </p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <form asp-action="VerifyClaim" method="post" class="d-inline">
+                            <input type="hidden" name="id" value="@claim.ClaimID" />
+                            <button type="submit" name="actionType" value="approve" class="btn" style="background-color:#0066ff; color:white; font-weight:bold; margin-right:5px;">
+                                Approve
+                            </button>
+                        </form>
+                        <form asp-action="VerifyClaim" method="post" class="d-inline">
+                            <input type="hidden" name="id" value="@claim.ClaimID" />
+                            <button type="submit" name="actionType" value="reject" class="btn" style="background-color:#f6be00; color:white; font-weight:bold;">
+                                Reject
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
