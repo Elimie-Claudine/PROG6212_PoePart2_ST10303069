@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MonthlyClaimsApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+333582920beb6c0614a168dee89016c259ee22e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3575bdca2349af53a969971e0a193c9a5843f824")]
 [assembly: System.Reflection.AssemblyProductAttribute("MonthlyClaimsApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MonthlyClaimsApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
