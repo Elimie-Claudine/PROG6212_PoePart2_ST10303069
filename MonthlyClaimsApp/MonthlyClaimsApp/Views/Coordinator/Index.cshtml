@@ -12,7 +12,10 @@
         @ViewBag.Message
     </div>
 }
-
+@if (!Model.Any())
+{
+    <p class="text-center" style="color:black;">No pending claims at the moment.</p>
+}
 @if (ViewBag.UserRole != null)
 {
     <p class="text-center text-muted">
@@ -29,10 +32,6 @@
 @if (TempData["ErrorMessage"] != null)
 {
     <div class="alert alert-danger text-center">@TempData["ErrorMessage"]</div>
-}
-@if (!Model.Any())
-{
-    <p class="text-center" style="color:black;">No pending claims at the moment.</p>
 }
 else
 {
