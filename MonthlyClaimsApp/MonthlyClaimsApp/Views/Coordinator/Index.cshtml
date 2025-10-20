@@ -6,13 +6,30 @@
 
 <h2 class="text-center mb-4" style="color:#f6be00;">Pending Claims for Approval</h2>
 
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-success text-center mb-4">
+        @ViewBag.Message
+    </div>
+}
+
+@if (ViewBag.UserRole != null)
+{
+    <p class="text-center text-muted">
+        Logged in as: <strong>@ViewBag.UserRole</strong>
+        <a asp-action="SelectRole" class="btn btn-outline-secondary btn-sm ms-2">Change Role</a>
+    </p>
+}
 @if (TempData["Message"] != null)
 {
     <div class="alert alert-success text-center mb-4">
         @TempData["Message"]
     </div>
 }
-
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger text-center">@TempData["ErrorMessage"]</div>
+}
 @if (!Model.Any())
 {
     <p class="text-center" style="color:black;">No pending claims at the moment.</p>
@@ -33,7 +50,7 @@ else
                         <p><strong>Hourly Rate:</strong> @claim.HourlyRate</p>
                         <p><strong>Total Amount:</strong> @claim.TotalAmount</p>
                         <p>
-                            <strong>Document / Description:</strong>
+                            <strong>Document / Comment:</strong>
                             @if (!string.IsNullOrEmpty(claim.DocumentName))
                             {
                                 <a href="@claim.DocumentName" target="_blank" style="color:#0066ff; font-weight:bold;">Download</a>

@@ -7,8 +7,27 @@ namespace MonthlyClaimsApp.Controllers
     {
         private static List<Claim> _claims => LecturerControllerHelper.GetClaims();
 
+        public IActionResult SelectRole()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult SetRole(string role)
+        {
+            HttpContext.Session.SetString("UserRole", role);
+            return RedirectToAction("Index");
+        }
+
         public IActionResult Index()
         {
+            var userRole = HttpContext.Session.GetString("UserRole");
+            if (string.IsNullOrEmpty(userRole))
+            {
+                return RedirectToAction("SelectRole");
+            }
+
+            ViewBag.UserRole = userRole;
             return View(_claims);
         }
 
@@ -18,8 +37,22 @@ namespace MonthlyClaimsApp.Controllers
             var claim = _claims.FirstOrDefault(c => c.ClaimID == id);
             if (claim != null)
             {
-                claim.Status = actionType == "approve" ? "Approved by Coordinator" : "Rejected by Coordinator";
-                TempData["Message"] = $"Claim ID {claim.ClaimID} {claim.Status}.";
+                var userRole = HttpContext.Session.GetString("UserRole") ?? "Coordinator";
+
+                if (actionType == "approve")
+                {
+                    claim.Status = $"Approved by {userRole}";
+                    TempData["Message"] = $"Claim ID {claim.ClaimID} approved by {userRole}.";
+                }
+                else
+                {
+                    claim.Status = $"Rejected by {userRole}";
+                    TempData["ErrorMessage"] = $"Claim ID {claim.ClaimID} rejected by {userRole}.";
+                }
+
+                claim.VerifiedByRole = userRole;
+                claim.VerifiedBy = User?.Identity?.Name ?? userRole;
+                claim.VerifiedDate = DateTime.Now;
             }
             return RedirectToAction("Index");
         }

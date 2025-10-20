@@ -10,6 +10,9 @@
         public decimal HourlyRate { get; set; }
         public decimal TotalAmount { get; set; }
         public string? Description { get; set; }
-        public string? Status { get; set; } 
+        public string? Status { get; set; }
+        public string? VerifiedBy { get; set; }    
+        public string? VerifiedByRole { get; set; }  
+        public DateTime? VerifiedDate { get; set; }   
     }
 }
